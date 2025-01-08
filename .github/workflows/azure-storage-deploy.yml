@@ -18,4 +18,4 @@ jobs:
         uses: azure/cli@v1
         with:
           inlineScript: |
-            az storage blob upload-batch --account-name YOUR_STORAGE_ACCOUNT -d '$web' -s . --auth-mode login --overwrite
+            az storage blob upload-batch --account-name jmacwebsite2025storage -d '$web' -s . --auth-mode login --overwrite
